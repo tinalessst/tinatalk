@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinaTalk 🤍</title>
+
+  <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="background">
+    <div class="blur blur1"></div>
+    <div class="blur blur2"></div>
+</div>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <div class="avatar">
+                T
+            </div>
+
+            <div>
+
+                <h2>TinaTalk</h2>
+
+                <p>Kenalan sama aku yuk!</p>
+
+            </div>
+
+        </div>
+
+        <button class="newChat">
+            + Chat Baru
+        </button>
+
+        <div class="tips">
+
+            <h3>Contoh Pertanyaan</h3>
+
+            <button class="question">
+                Tina orangnya gimana?
+            </button>
+
+            <button class="question">
+                Makanan favorit?
+            </button>
+
+            <button class="question">
+                Cara PDKT sama Tina?
+            </button>
+
+            <button class="question">
+                Green flag Tina?
+            </button>
+
+            <button class="question">
+                Red flag?
+            </button>
+
+            <button class="question">
+                Tina suka warna apa?
+            </button>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- Chat -->
+
+    <main class="chat">
+
+        <header>
+
+            <h1>TinaTalk 🤍</h1>
+
+            <p>
+                Tanya apa aja tentang aku.
+            </p>
+
+        </header>
+
+
+
+        <div id="chatBox">
+
+            <div class="bot message">
+
+                <div class="icon">
+                    🤍
+                </div>
+
+                <div class="bubble">
+
+                    Haiii 👋
+
+                    <br><br>
+
+                    Aku TinaTalk.
+
+                    <br>
+
+                    Dibuat supaya kamu bisa kenal aku tanpa harus kepo ke orang lain 😆
+
+                    <br><br>
+
+                    Silakan tanya apa aja ya.
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="typing" id="typing">
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+        </div>
+
+
+
+        <div class="inputArea">
+
+            <input
+                id="userInput"
+                type="text"
+                placeholder="Ketik pertanyaan..."
+            >
+
+            <button id="sendBtn">
+
+               ➜
+
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="database.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
