@@ -13,8 +13,8 @@ answers:[
 },
 
 {
-    keywords:["nama","siapa kamu","kenalan"],
-    answer:"aku Tina"
+    keywords:["nama","siapa kamu","kenalan","nama lengkap", "nama panjang"],
+    answer:"Tina Lestari"
 },
 
 {

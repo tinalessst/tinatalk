@@ -433,3 +433,65 @@ max-width:90%;
 .voice-card audio{
     width:100%;
 }
+
+/* ===========================
+   SPLASH SCREEN
+=========================== */
+#splash{
+    position:fixed;
+    inset:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#F8F5F2;
+    z-index:99999;
+    transition:.8s;
+}
+
+#splash.hide{
+    opacity:0;
+    visibility:hidden;
+}
+
+.splash-content{
+    text-align:center;
+    animation:fade 1.2s ease;
+}
+
+.splash-content h1{
+    font-family:"Cormorant Garamond",serif;
+    font-size:64px;
+    font-weight:700;
+    color:#8B5E3C;
+    letter-spacing:2px;
+}
+
+.splash-content p{
+    margin-top:12px;
+    color:#8C827A;
+    font-size:15px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+.splash-content small{
+    display:block;
+    margin-top:35px;
+    color:#B5AAA0;
+    font-size:12px;
+    letter-spacing:2px;
+}
+
+@keyframes fade{
+
+from{
+opacity:0;
+transform:translateY(18px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
